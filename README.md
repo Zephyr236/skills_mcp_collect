@@ -43,3 +43,14 @@
 }
 ```
 便宜比较好获得的网络搜索功能
+
+# skills
+```
+https://github.com/obra/superpowers
+```
+帮助思考和测试
+
+```
+https://github.com/OthmanAdi/planning-with-files
+```
+写计划的
