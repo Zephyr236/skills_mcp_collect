@@ -44,6 +44,12 @@
 ```
 便宜比较好获得的网络搜索功能
 
+```
+https://github.com/DeusData/codebase-memory-mcp
+https://github.com/ast-grep/ast-grep-mcp
+```
+帮我agent理解代码
+
 # skills
 ```
 https://github.com/obra/superpowers
