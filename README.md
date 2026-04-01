@@ -54,3 +54,8 @@ https://github.com/obra/superpowers
 https://github.com/OthmanAdi/planning-with-files
 ```
 写计划的
+
+```
+https://clawhub.ai/solomon4github/multi-search-engine-2-0-1
+```
+增强搜索功能
