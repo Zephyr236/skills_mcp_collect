@@ -50,22 +50,6 @@ https://github.com/ast-grep/ast-grep-mcp
 ```
 帮我agent理解代码
 
-```
-docker run -it --rm --net host zephyr236/kali-mcp:v1 kali-server-mcp
-
-{
-  "args": [
-    "--from",
-    "mcp-kali-server",
-    "kali-mcp-client",
-    "--server",
-    "http://127.0.0.1:5000"
-  ],
-  "command": "uvx",
-  "type": "stdio"
-}
-```
-kali mcp快速搭建
 
 
 # skills
