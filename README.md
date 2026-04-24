@@ -50,6 +50,11 @@ https://github.com/ast-grep/ast-grep-mcp
 ```
 帮我agent理解代码
 
+```
+https://github.com/GongRzhe/Office-Word-MCP-Server
+claude for word
+```
+编写word文档
 
 
 # skills
