@@ -56,6 +56,11 @@ claude for word
 ```
 编写word文档
 
+```
+VSCode 扩展商店，搜索 Pencil（开发者 High Agency）
+```
+设计
+
 
 # skills
 ```
