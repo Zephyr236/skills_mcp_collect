@@ -58,6 +58,7 @@ claude for word
 
 ```
 VSCode 扩展商店，搜索 Pencil（开发者 High Agency）
+https://github.com/OpenCoworkAI/open-codesign
 ```
 设计
 
