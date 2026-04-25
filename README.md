@@ -62,6 +62,11 @@ https://github.com/OpenCoworkAI/open-codesign
 ```
 设计
 
+```
+https://github.com/iOfficeAI/OfficeAI
+https://github.com/iOfficeAI/OfficeCLI
+```
+office编辑
 
 # skills
 ```
