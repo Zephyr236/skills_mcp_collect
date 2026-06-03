@@ -1,5 +1,5 @@
 # 简介
-该仓库用于整理个人觉得不错的skills和mcp
+该仓库用于整理个人觉得不错的skills和mcp以及网站
 
 # mcp
 ```
@@ -83,3 +83,10 @@ https://github.com/OthmanAdi/planning-with-files
 https://clawhub.ai/solomon4github/multi-search-engine-2-0-1
 ```
 增强搜索功能
+
+# 在线服务
+
+```
+https://filebin.net/
+```
+在线文件托管
