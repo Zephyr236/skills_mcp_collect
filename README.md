@@ -93,24 +93,22 @@ https://filebin.net/
 
 # 工具
 ```
-  katana -list targets.txt \
-    -d 8 \                          # 深度 8 层
-    -c 100 \                        # 100 并发
-    -p 30 \                         # 每个目标最大并行数
-    -jc \                           # 爬取 JS 文件中的 URL
-    -jsl \                          # 解析 JS endpoint
-    -sc \                           # 爬取 sitemap.xml
-    -robotstxt \                    # 解析 robots.txt
-    -fx \                           # 提取所有表单
-    -kf all \                       # 所有已知字段
-    -hl \                           # 无头浏览器（发现动态渲染内容）
-    -nos \                          # 不截图，提速
-    -fhr \                          # 跟随重定向
-    -smd \                          # 爬取同一主域下的所有子域
-    -timeout 15 \                   # 超时 15 秒
-    -retry 2 \                      # 重试 2 次
-    -delay 100ms \                  # 请求间隔，避免触发 WAF
-    -json \                         # JSON 输出（保留完整元数据）
-    -o katana_full.json
+  katana \
+  -list ../httpx/alive.txt   # 目标列表
+  -d 8                       # 爬取深度 8 层
+  -c 100                     # 100 个并发 fetcher
+  -p 30                      # 同时处理 30 个目标
+  -jc                        # 解析 JS 文件中的 endpoint
+  -jsl                       # jsluice 深度解析 JS（耗内存但更全）
+  -kf all                    # 爬取 robotstxt + sitemapxml
+  -fx                        # 提取表单/输入框元素
+  -hl                        # headless 模式
+  -nos                       # Chrome --no-sandbox（Codespaces 环境必须加）
+  -fs rdn                    # 范围限制在根域名内
+  -timeout 15                # 请求超时 15 秒
+  -retry 2                   # 失败重试 2 次
+  -rd 1                      # 每个请求间隔 1 秒
+  -j                         # JSONL 格式输出
+  -o katana_full.json        # 输出文件
 ```
 收集潜在的endpoint
