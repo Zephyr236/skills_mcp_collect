@@ -110,5 +110,9 @@ https://filebin.net/
   -rd 1                      # 每个请求间隔 1 秒
   -j                         # JSONL 格式输出
   -o katana_full.json        # 输出文件
+
+katana -u http://127.0.0.1:80 \                                                                                                            
+      -d 5 -c 20 -p 10 -jc -kf all -fx \                                                                                                       
+      -retry 2 -timeout 10 -j -o output.json
 ```
 收集潜在的endpoint
