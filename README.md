@@ -118,8 +118,8 @@ katana -u http://127.0.0.1:80 \
 # 标准无头模式 — JS渲染 + 表单填充 + XHR提取
 katana -u <URL> -d 5 -c 10 -p 5 -hl -nos -jc -jsl -fx -xhr -aff -retry 2 -timeout 15 -j -o output.json
 
-# 混合无头模式 — 非headless先爬，headless再补刀
-katana -u <URL> -d 6 -c 10 -p 5 -hl -hh -nos -jc -jsl -fx -xhr -aff -retry 2 -timeout 15 -j -o output.json
+# 混合无头模式 
+katana -u <URL> -d 6 -c 10 -p 5 -hh -nos -jc -jsl -fx -xhr -aff -retry 2 -timeout 15 -j -o output.json
 
 # 基础高效型 — 均衡速度与覆盖
 katana -u <URL> -d 5 -c 20 -p 10 -jc -kf all -fx -retry 2 -timeout 10 -j -o output.json
